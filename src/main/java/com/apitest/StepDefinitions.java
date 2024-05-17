@@ -15,7 +15,7 @@ public class StepDefinitions {
     private String baseUrl = "https://api.clickup.com/api/v2/";
 
     public static String getFolderId() {
-        return folderId;
+        return folderId;    //Pass folderId to Hooks.java
     }
 
     @Given("I have a ClickUp Space with ID {string}")
